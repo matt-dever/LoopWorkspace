@@ -293,6 +293,9 @@ jobs:
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
 
+          # Module: File: code customization description
+          curl https://github.com/matt-dever/Loop/commit/a0b9ec084e6ece415fb498a738297d86951c4378.patch | git apply -v --directory=Loop
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
