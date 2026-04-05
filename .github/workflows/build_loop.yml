@@ -227,7 +227,7 @@ jobs:
           # more customizations can be pasted after this line
 
           # Module: File: code customization description
-          curl https://github.com/matt-dever/Loop/commit/70b5dd4300d6be7fa6f2f0093c8ea46f7dd2e519.patch | git apply -v --directory=Loop
+          curl https://github.com/matt-dever/Loop/commit/70b5dd43a724f9b5e88774f4e7f34875f51121ee.patch | git apply -v --directory=Loop
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
